@@ -1,0 +1,225 @@
+body,h1,h2,h3,h4,h5,h6{
+  font-family: 'Work Sans',
+  sans-serif;
+}
+img{
+  max-width: 100%;
+}
+/*header style*/
+.my-header .navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+.my-header span{
+  
+  display: inline-block;
+  background: #6278df;
+  color:#fff;
+  height: 47px;
+  width: 47px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 28px;
+  position: relative;
+  top: 3px;
+}
+.my-menu .nav-link{
+  padding-left: 15px;
+  padding-right: 215px;
+}
+
+
+/* slider section*/
+.slider-section{
+  background: url(img/mbr-10.jpg) no-repeat center center;
+  padding: 200px 0;
+  position: relative;
+  z-index: 1;
+}
+.slider-caption::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: -1;
+}
+.slider-caption h4{
+margin-bottom: 35px;
+}
+.slider-caption h2{
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.slider-caption .btn{
+background: #5BA533;
+padding: 10px 20px;
+font-size: 30px;
+font-weight:600 ;
+}
+.slider-caption .form-control{
+  padding: 18px 20px;
+}
+.about{
+  background: #F7F9FF;
+}
+.about-text-left{
+  margin-top: 120px;
+}
+.about-text-left .lead{
+  font-size: 25px;
+  line-height: 2.7rem;
+}
+.feature-item{
+  height: 300px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.left-img-sec{
+
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 5px 0 0 5px;
+  
+   }
+.left-text-sec {
+  padding: 25px;
+  width: 60%;
+}
+
+
+.left-img-sec img{
+  height: 100%;
+  width: 100%;
+
+ 
+}
+
+/*portfolio hover css*/
+.portfolio-item{
+
+}
+.portfolio-item a{
+  position: relative;
+  display: block;
+}
+.portfolio-item a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(98,120,223,0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+.portfolio-item:hover a::after{
+opacity: 1;
+visibility: visible;
+}
+.min-section-bg{
+  background-color: #f7f9ff;
+}
+
+
+.pricing-item{
+background-color: #fff;
+padding: 50px;
+ box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+ border-radius: 5px;
+
+}
+.pricing-item h1{
+
+}
+.pricing-item h5{
+
+}
+.pricing-item ul{
+margin-left: 0;
+padding-left: 0;
+margin-bottom: 30px;
+}
+.pricing-item ul li{
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 20px;
+list-style-type: none;
+color: #777777;
+
+}
+.pricing-item ul li span{
+color: #657be0;
+font-size: 25px;
+font-weight: bold;
+width: 40px;
+display: inline-block;
+}
+.pricing-item-btn a{
+border: 1px solid #657be0 ;
+font-weight: bold;
+padding: 14px 30px;
+font-size: 23px;
+color: #657be0;
+ box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+ border-radius: 5px;
+}
+
+.author-info{
+  width: 225px;
+  margin:  auto;
+}
+.author-info img{
+  width: 87px;
+  margin-right: 10px;
+}
+.user-details{
+  position: relative;
+  top: 10px;
+}
+.user-details h6{
+  font-size: 20.8px;
+  font-weight: 500;
+}
+.team-section{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.about-section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about-item{
+margin-top:90px;
+}
+.about-item .card{
+
+}
+.about-item .card img{
+  margin-top: -70px;
+  width: 130px;
+  height: auto;
+  margin-left:15px ;
+}
+.card-body .btn{
+  margin-left: 20px;
+  margin-bottom: 7px;
+}
+.content-section{
+  margin-top: 50px;
+  background-color: #fff;
+  
+}
+.contact-form .card .card-body h4{
+padding-top: 17px;
+padding-bottom: 5px;
+}
+.contact-form .card{
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+  padding: 40px;
+}
